@@ -1,0 +1,57 @@
+.note {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.note:hover {
+  transform: scale(1.02);
+}
+
+.note .view_note-link {
+  text-decoration: none;
+  width: 80%;
+  height: 100%;
+}
+
+.note h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #000;
+}
+
+.note p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.edit-icon,
+.delete-icon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #666;
+}
+
+.edit-icon:hover {
+  color: #4caf50;
+}
+
+.delete-icon:hover {
+  color: red;
+}
